@@ -64,9 +64,6 @@
   "lint-staged": {
     "*.+(ts|tsx)": [
       "eslint --fix",
-      "git add"
-    ],
-    "*.+(json|scss|md)": [
       "prettier --write",
       "git add"
     ]
